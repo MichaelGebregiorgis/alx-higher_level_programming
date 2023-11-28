@@ -2,5 +2,5 @@
 for num in range(0,100):
     if num == 99:
         break
-    print(f"{int(num / 10)}{int(num % 10)}", end=', ')
-print("99")
+    print("{}{}".format(int(num / 10), int(num % 10)), end=', ')
+print("{}".format(99))
