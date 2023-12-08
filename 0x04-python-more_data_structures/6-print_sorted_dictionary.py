@@ -4,4 +4,4 @@ def print_sorted_dictionary(a_dictionary):
     lists = list(keys)
     lists.sort()
     for val in lists:
-        print("{}: {}".format(lists, a_dictionary[val]))
+        print("{}: {}".format(val, a_dictionary[val]))
