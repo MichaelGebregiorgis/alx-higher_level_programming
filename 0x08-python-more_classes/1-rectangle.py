@@ -4,7 +4,7 @@
 
 class Rectangle:
     """Rectangle detail"""
-    def __init__(self, width = 0, height = 0):
+    def __init__(self, width=0, height=0):
         """initialization"""
         self. height = height
         self.width = width
@@ -26,6 +26,7 @@ class Rectangle:
     def height(self):
         """Height of the rectangle"""
         return (self.height)
+
     @height.setter
     def height(self, val):
         if val < 0:
