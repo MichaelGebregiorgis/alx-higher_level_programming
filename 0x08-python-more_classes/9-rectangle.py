@@ -51,6 +51,10 @@ class Rectangle:
         else:
             return (rect_2)
 
+    def square(cls, size=0):
+        """new rect"""
+        return (cls(size, size))
+
     def perimeter(self):
         """return perimeter"""
         if self.width == 0 or self.__height == 0:
@@ -78,10 +82,6 @@ class Rectangle:
         rt = "Rectangle(" + str(self.__width)
         rt += ", " + str(self.__height) + ")"
         return (rt)
-
-    def square(cls, size=0):
-        """new rect"""
-        return (cls(size, size))
 
     def __del__(self):
         """delete instance"""
