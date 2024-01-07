@@ -6,7 +6,7 @@ class Rectangle:
     """Describe rect"""
 
     number_of_instances = 0
-    symbol = "#"
+    print_symbol = "#"
     def __init__(self, width=0, height=0):
         """Initialization"""
         type(self).number_of_instances += 1
@@ -56,7 +56,7 @@ class Rectangle:
         else:
             rect = []
             for inc in range(self.__height):
-                [rect.append(str(self.symbol)) for wid in range(self.__width)]
+                [rect.append(str(self.print_symbol)) for wid in range(self.__width)]
                 if inc != self.__height - 1:
                     rect.append("\n")
             return("".join(rect))
