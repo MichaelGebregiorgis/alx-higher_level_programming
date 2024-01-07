@@ -40,7 +40,7 @@ class Rectangle:
         self.__height = value
 
     @staticmethod
-    def bigger_or_equal(rect1, rect2):
+    def bigger_or_equal(rect_1, rect_2):
         """greatest area"""
         if not isinstance(rect_2, Rectangle):
             raise TypeError("rect_2 must be an instance of Rectangle")
