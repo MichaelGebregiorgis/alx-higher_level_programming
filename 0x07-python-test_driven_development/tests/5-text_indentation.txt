@@ -1,0 +1,45 @@
+::
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+	>>> text_indentation("Hello?")
+	Hello?
+	<BLANKLINE>
+
+::
+	>>> text_indentation("     ALX.")
+	ALX.
+	<BLANKLINE>
+
+::
+	>>> text_indentation("          ")
+
+::
+	>>> text_indentation("    Just spaces.    Also text.   ")
+	Just spaces.
+	<BLANKLINE>
+	Also text.
+	<BLANKLINE>
+
+::
+	>>> text_indentation("No ending period, what bad grammar")
+	No ending period, what bad grammar
+
+::
+	>>> text_indentation("\n\n two new lines.")
+	<BLANKLINE>
+	<BLANKLINE>
+	two new lines.
+
+::
+	>>> text_indentation(7)
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+::
+	>>> text_indentation(None)
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+::
+	>>> text_indentation({"one": 1, "five": 5})
+	Traceback (most recent call last):
+	TypeError: text must be a string
