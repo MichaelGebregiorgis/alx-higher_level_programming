@@ -90,7 +90,7 @@ class Rectangle(Base):
                                                         self.width,
                                                         self.height))
 
-    def update(self, *args, **kwarg):
+    def update(self, *args, **kwargs):
         """Argument to attribute"""
         if args and len(args) != 0:
             ar = 0
