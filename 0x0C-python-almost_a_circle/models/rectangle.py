@@ -123,5 +123,5 @@ class Rectangle(Base):
                     self.height = v
                 elif k == "x":
                     self.x = v
-                elif  k == "y":
+                elif k == "y":
                     self.y = v
