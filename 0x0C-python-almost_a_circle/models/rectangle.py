@@ -86,5 +86,6 @@ class Rectangle(Base):
     def __str__(self):
         """All info"""
         return ("[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                        self.x, self.y, self.width,
+                                                        self.x, self.y,
+                                                        self.width,
                                                         self.height))
