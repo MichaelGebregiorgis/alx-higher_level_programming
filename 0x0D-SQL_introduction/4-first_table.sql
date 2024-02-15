@@ -1,2 +1,2 @@
 -- creates a table called first_table
-CREATE TABLE IF NOT EXISTS `first_table` (`id` INT, `name` CHARVAR(256))
+CREATE TABLE IF NOT EXISTS `first_table` (`id` INT, `name` CHARVAR(256));
